@@ -13,8 +13,10 @@ reshuffled and you'll be shown a new card.
 
 If you want to use a new dictionary, change Line 28:
 
-words = pd.read_csv("data/spanish_words.csv") to correct csv and find/replace
-"Spanish" to new column head in csv (eg. "French", "German", etc)
+    words = pd.read_csv("data/spanish_words.csv") 
+    
+to correct csv and find/replace "Spanish" to new column head in csv
+(eg. "French", "German", etc)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
